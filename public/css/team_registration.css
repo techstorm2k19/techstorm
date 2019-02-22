@@ -1,0 +1,125 @@
+/* THe heading with the logo */
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Contrail+One');
+#headLogo {
+    height: 25vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#headLogo img {
+    max-height: 80%;
+    max-width: 80%;
+}
+
+#headLogo span {
+    margin: auto 0;
+    color: white;
+    font-size: 3.8em;
+    font-family: 'Alice', serif;
+}
+#teamForm{
+    height: auto;
+    width: 80vw;
+    margin: 50px auto;
+    margin-left: 12.5vw;
+    border: none;
+}
+.details{
+    text-align: center;
+    height:auto;
+    background-color: #424874;
+    border: none;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: auto;
+}
+.info{
+    background-color: #4DAA57;
+    border: none;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: auto;
+    height:auto;
+}
+.info h1,.details h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    text-decoration: underline;
+    padding: 10px;
+}
+.details h1{
+    color: #DDD92A;
+}
+.info h1{
+    color: #031926;
+}
+.info p{
+    font-family: 'Contrail One', cursive;
+    font-size: 15px;
+    color: #031926;
+    float: left;
+    clear: both;
+}
+.details p {
+    float: left;
+    clear: both;
+    font-family: 'Contrail One', cursive;
+    font-size: 15px;
+    color: #DDD92A;
+}
+/*buttons*/
+.details .teambutton {
+    width: 100px;
+    background: #DDD92A;
+    font-weight: bold;
+    color: #292808;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 10px 5px;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.details .teambutton:hover,.details .teambutton:focus {
+    box-shadow: 0 0 0 2px #424874, 0 0 0 3px #DDD92A;
+}
+.details input,#count{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    color: black;
+    box-sizing: border-box;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+#count{
+    width:auto;
+}
+input[type="email"]:disabled{
+    opacity: 0.8;
+}
+a:active{
+    text-decoration: none;
+    color:#DBD825;
+}
+a:hover{
+    text-decoration: none;
+    color:#DBD825;
+}
+a:visited{
+    text-decoration: none;
+    color:#DBD825;
+}
+a:default{
+    text-decoration: none;
+    color:#DBD825;
+}
+@media (max-width:545px) {
+    .info p{
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,28 @@
+.content {
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.header .content {
+	background-image:url(main-background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	animation: AnimationName 7s ease infinite;
+
+}
+
+
+@keyframes AnimationName {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+
+@media only screen and (max-width : 768px) {
+	.main-header{
+		font-size: 1.4em;
+	}
+}

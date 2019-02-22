@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Techstorm 2.19 | Rovers</title>
+		<link rel="icon" href="./favicon.png">
+		<link rel="stylesheet" type="text/css" href="./public/vendor/normalizemin.css" />
+		<link rel="stylesheet" type="text/css" href="./public/css/formalEventDemo.css" />
+		<link rel="stylesheet" type="text/css" href="./public/css/formalEventComponent.css" />
+		<link rel="stylesheet" href="./public/css/preloader.css">
+    	<link rel="stylesheet" href="./public/css/scrollbar.css">
+		<link rel="stylesheet" href="./public/vendor/animatemin.css">
+		<style>
+			#headLogo {
+				height: 25vh;
+				display: flex;
+				align-items: flex-end;
+				justify-content: center;
+			}
+
+			#headLogo img {
+				max-height: 80%;
+				max-width: 80%;
+			}
+
+			#headLogo span {
+				margin: auto 0;
+				color: white;
+				font-size: 48px;
+				font-family: 'Alice', serif;
+			}
+			#btn{
+				background-color:  #ccc;
+						  border: none;
+						  color:  black;
+						  padding: 15px 32px;
+						  text-align: center;
+						  text-decoration: none;
+						  display: inline-block;
+						  font-size: 18px;
+						  font-weight:bold;
+						  margin: 4px 2px;
+						  cursor: pointer;
+						    box-shadow: 2px 2px 2px grey;
+							transition: 0.4s ease all;
+			}
+			#btn:hover{
+				background-color: grey
+			}
+			#btn:active{
+				border: 2px solid black;
+			}
+		</style>
+		<script src="./public/js/modernizr.custom.js"></script>
+	</head>
+	<body style="background: url('public/images/blackBack.jpg');background-size: cover;background-repeat: no-repeat;">
+
+		<!-- Preloader -->
+		<div id="preloader">
+			<div id="status">&nbsp;</div>
+		</div>
+
+		<div id="headLogo">
+			<span style="display: inline-block; padding-right: 1vw; position: relative; z-index: -1; visibility: visible; animation-duration: 2s; animation-name: fadeInUp;"
+					class="wow fadeInDown" data-wow-duration="2s">
+				<img src="ts%20logo%20transparent%20-%20Copy.png" width="100px" title="logo">
+			</span>
+			<span style="animation-duration: 2s; animation-name: fadeInUp;" class="wow fadeInUp">Rovers</span>
+		</div>
+
+		<div class="container">
+			<section class="grid3d vertical" id="grid3d">
+				<div class="grid-wrap">
+					<div class="grid">
+						<figure><img class="animated rubberBand delay-2s" src="./public/images/events/rocombat.jpg" alt="img01"/></figure>
+						<figure><img class="animated rubberBand delay-2s" src="./public/images/events/ronavigator.jpg" alt="img05"/></figure>
+						<figure><img class="animated rubberBand delay-2s" src="./public/images/events/ropicker.jpg" alt="img08"/></figure>
+						<figure><img class="animated rubberBand delay-2s" src="./public/images/events/ropuzzle.jpg" alt="img02"/></figure>
+						<figure><img class="animated rubberBand delay-2s" src="./public/images/events/rosoccer.jpg" alt="img04"/></figure>
+						<figure><img class="animated rubberBand delay-2s" src="./public/images/events/roterrence.jpg" alt="img03"/></figure>
+						<figure><img class="animated rubberBand delay-2s" src="./public/images/events/rowings.jpg" alt="img01"/></figure>
+						
+						
+						</div>
+				</div><!-- /grid-wrap -->
+				<div class="content">
+					<!-- Content can be recieved by seperate XHR request and adding ineer html acccordingly-->
+
+					<div>
+						<div class='dummy-img'><img src='./public/images/events/rocombat.jpg' width="320px" height="200px">
+						</div>
+						<p class='dummy-text'>Event Name : RO -COMBAT </p>
+                         <ul style="color: black; list-style: none">
+                            <li>Participation Fees for College Students: ₹120 </li>
+                            <li>and other Students: ₹150 </li>
+                        </ul>
+                        
+						
+						<a href="./eventReg/combat.html"><div id="btn">Register</div></a>
+						<p class='dummy-text'><b>Event Description :</b> Two bots will start from two opposite sides of arena. There will be an inclined plane & a combat zone. Points will be provided in both zones. There will be some changes in the arena from preliminary round to final round. In preliminary rounds there will be a cuboidal arena with two inclined planes. At the entrance there will be a flap gate and an inclined plane through which bots will enter. Two cuboidal ditches will be present inside the arena at possible edges. Preliminary rounds will be of 800 points and later stages will be of more points.</p>
+						
+						<br>
+						<p class="dummy-text">
+							<b>BOT SPECIFICATION</b><br><br>
+1. (a). The recommended weight for the bots is 15 kg(minimum) - 30kg(maximum)(1st winner will be selected from here)
+<br>
+1(b)Category (2)-The recommended weight for the bots is less than 15 kg.(2nd and 3rd winner will be selected from here)
+<br>
+2.Dimension should be less than (50*50*50) cm^3 including all gadgets.
+<br>
+3.Bot’s wheels should fit in a 45*45cm^2 platform at the time of start.
+<br>
+4.No readymade lego kits will be allowed.
+<br>
+5.A 230 v ac voltage will be provided to each team.
+<br>
+6.Ac motor in weapon system or wheels is strictly prohibited. Use of hammering tools is allowed. But in case of vertical hammering, the hammering should stop at a miniumum height of 5cm from the surface of arena, so that the arena does not get damaged. Cutting, fire and throwing weapons are NOT allowed.
+<br>
+7.The surface of arena may get slippery, the bots should bear that.
+<br>
+8.Wires should be sufficiently long & should not slack or touch the arena, if it does organizer will not be responsible for any damage.
+						</p>
+						<p class="dummy-text">
+							<b>RULES AND REGULATIONS :</b><br><br>
+1.The bots need to enter the arena through flap gates. For this 100 points will be given.
+<br>
+2.For entering to the battle ground or combat zone through the inclined plane successfully 200 points will be given.
+<br>
+3.If a bot is put in the pit inside the arena by opponent it will give the opponent full 300 points.
+<br>
+4.100 points will be given for pushing the bot of the opponent team outside the arena.
+<br>
+5. If the bot touches the rotating blades than 200 points will be given to the opponent.
+<br>
+6.Any team can ask for time out due to technical faults. One time out will be allotted for 3 minutes. After that 10 points will be deducted for each minute.
+<br>
+7.50 points will be deducted for each hand touch.
+<br>
+8.In any way if the hammering tool touches the arena surface 100 points will be deducted from the respective team.
+<br>
+9.Any kind of damage to the arena will lead to direct disqualification of the team.
+<br>
+10.a)Duration of a match is 20 minutes.
+<br>
+10.b)In the preliminary stage, the team that will reach 1200 points first,will qualify for the next round.
+<br>
+10.c)In case of the teams fail to reach 1200 points within the stipulated time,the team with the higher score at the end of 20 minutes shall qualify for next round.
+<br>
+11.The team with the highest score within 10 minutes shall qualify for further rounds.
+						</p>
+						<p class='dummy-text'>Contact Person:</p>
+						<ul class = 'dummy-text'>
+							<li>Sangeeta Kundu(ECE)- 7044247824</li>
+							<li>Samapika Mandal(EE)-7602011021</li>
+						</ul>
+					</div>
+					<div>
+						<div class='dummy-img'><img src='./public/images/events/ronavigator.jpg' width = "320px" height="200px">
+						</div>
+						<p class='dummy-text'>Event Name : RO - NAVIGATOR</p>
+                         <ul style="color: black; list-style: none">
+                            <li>Participation Fees for College Students: ₹80 </li>
+                            <li>and other Students: ₹100 </li>
+                        </ul>
+						
+						<a href="eventReg/Navigator.html"><div id="btn">Register</div></a>
+						<p class='dummy-text'>Event Description : The event will commence with the declaration of a robotics\automation problem. Every team
+participating in the event has to think over the problem and come up with technical solutions that will help in
+overcoming the problem.</p>
+						<p class="dummy-text">
+							<b>GENERAL RULES</b><br><br>
+1.Each team can have of 5 members. No same member can take part in two teams.
+<br><br>
+2.The members of a team can be from different college or university.
+<br><br>
+3.Team members need to bring their ID cards.
+<br><br>
+4.Each team can present only one bot.
+<br><br>
+5.Prelim will be held on the first day of Tech-fest. Qualified teams need to come on the next day for the final round about which they would be informed.
+<br><br>
+6.The co-ordinators can change the rules in case of special cases.
+<br><br>
+<b>BOT SPECIFICATIONS</b><br>
+<br><br>1.Bot dimension must be such that it fits in the cube of 20cm x 20cm x 20cm. Individual parameters to be measured with a tolerance of 10%.
+<br><br>
+2.The bot must be an autonomous robot, no remote or controller should control the robot.
+<br><br>
+3.The participants will be provided with a 220V, 50 Hz single phase power supply.
+<br><br>
+4.A bot may weigh up to 4Kg but not more than that.
+<br><br>
+5.Use of IC engines is prohibited.
+<br><br>
+6.The robot has to be designed and developed by the team itself, commercially available modules (like sensors, development board, etc) can be used, but the bots cannot be constructed using readymade Lego kits.
+<br><br>
+7.Damage to the arena will lead to disqualification.
+<br><br>
+<b>EVENT DESCRIPTION(PRELIMS)</b><br>
+<br><br>1.The line will be black on a white background.
+<br><br>
+2.The bot has to reach the destination point from the starting point.
+<br><br>
+3.The bot with minimum time of RUN leads the score board.
+<br><br>
+4.Total of 5 min time is allocated per team.
+<br><br>
+5.A team can take as many RUN as possible in their allocated time of 5 minutes.
+<br><br>
+6.Each new RUN has to begin from the starting point only.
+<br><br>
+7.Between two consecutive RUN the clock will not pause.
+<br><br>
+8.Only one 2minute technical time out is allowed.
+<br><br>
+9.The bot has to stop at each checkpoint, unable to do so the team will be penalized.
+<br><br>
+10.The line will be of 3cm maximum.
+						</p>
+						<p class='dummy-text'>Contact Person:</p>
+						<ul class = 'dummy-text'>
+							<li>Aheli Das(ECE)-7687085093</li>
+							<li>Aniket Mandal(EE)-8902694932</li>
+						</ul>
+					</div>
+					<div>
+						<div class='dummy-img'><img src='./public/images/events/ropicker.jpg' width = "320px" height="200px">
+						</div>
+						<p class='dummy-text'>Event Name : RO -PICKER</p>
+                         <ul style="color: black; list-style: none">
+                            <li>Participation Fees for College Students: ₹100 </li>
+                            <li>and other Students: ₹120 </li>
+                        </ul>
+						<p class='dummy-text'>Team Size:  5</p>
+						<a href="./eventReg/Picker.html"><div id="btn">Register</div></a>
+						<p class='dummy-text'><b>Event Description : </b>
+                        </p>
+                        <p class='dummy-text'>
+                            
+                            # This is a time based pick and place event so fastest and the most efficient robots will win.<br/>
+
+
+# All the rounds will be solo with increasing arena complexities (can be box number or hurdels) towards the finals.<br/>
+
+# Time taken by the robots to complete the track will be the only criteria of judgement for qualification to the next round.<br/>
+
+# There will be total 2min of technical help for every team which can be taken atmost 2 divition (eg: 1 min 30 sec + 30 sec or 1 min + 1 min) <br/>
+
+# Under any circumtances , after the beginning of the round team participants must not touch the bots except in the technical timeout.<br/>
+
+# Teams who chose to quit (for tecnical fault) will not be considered while shortlisting candidates for the next round in any case.<br/>
+
+# Stepping on the track is forbidden. This can only be done by co-ordinators. Failing to abide will lead to disqualification without any refunds.<br/>
+
+# Participants will be provided with a standard 220-volts 50 Hz AC power supply outlet.<br/>
+
+# The robot should fit in a box of dimension 50cm(l) x 30cm(b) x 30cm(h) with the picking mechanisms. <br/>
+
+# No two team should share the same robot.<br/>
+
+# Maximum weight of robot should not be more than 4 kgs. External control device shall not be considered for weight and size measurement.<br/>
+
+# The robot may be wired or wireless. No extra points for wireless robots. But for wireless, it is mandatory to use dual frequency remote or else it will lead to disqualification. For wired bots, the lenght must be enough for cover the entire arena.<br/>
+
+# Lego kit or spare parts are strictly prohibited. However team can use ready made gear  system.<br/>
+
+# The potential difference between any two points should not exceed 24 V DC at any point of time during the run
+round is an aptitude round with tricky questions, out of which 4 teams proceed to the finals.<br/>
+                        </p>
+						<p class='dummy-text'>Contact Person:</p>
+						<ul class = 'dummy-text'>
+							<li>Soham Debnath(ECE)-8981832081</li>
+							<li></li>
+						</ul>
+					</div>
+					<div>
+						<div class='dummy-img'><img src='./public/images/events/ropuzzle.jpg' width="320px" height="200px">
+						</div>
+						<p class='dummy-text'>Event Name :  RO -PUZZLE</p>
+                         <ul style="color: black; list-style: none">
+                            <li>Participation Fees for College Students: ₹80 </li>
+                            <li>and other Students: ₹100 </li>
+                        </ul>
+						
+						<a href="./eventReg/puzzle.html"><div id="btn">Register</div></a>
+						<p class='dummy-text'><b>Event Description :</b> In mechatronics, the movement of robotic arms or legs for completion of a particular task is done by automatic control logic i.e. the motors connected to these limbs are controlled by programming a microcontroller. It may happen that more than one robotic arm’s motor has to be triggered. In this competition you have to blink led panels composed of three layers and also perform other tasks like controlling the speed of motor by programming an Arduino in a fixed amount of time.</p>
+						<p class='dummy-text'>
+							<b>Rules</b><br><br>
+1. There will be two rounds:Prelims and Final.
+<br><br>
+2. No requests for a second chance will be entertained.
+<br><br>
+3. Coordinator’s decision will be final.
+<br><br>
+4. Rules and points can be changed without prior information.
+<br><br>
+5. Each team can have of 5 members from the same institute.
+<br><br>
+6. Two members can work at a time and two members will be on standby.
+<br><br>
+7. If one member can’t complete the task, then someone else can replace him/her.
+<br><br>
+8. No mobile phones, internet or any electronic gadget other than that which is required to do the task will be allowed.
+<br><br>
+9. Participants must bring 1 laptop.
+<br><br>
+10. Each member of the team must bring their own college ID cards and Aadhar card or pan card.
+<br><br>
+11. Teams will be required to register themselves in the registration counter before they can participate in the event.
+						</p>
+						<p class='dummy-text'>Contact Person:</p>
+						<ul class = 'dummy-text'>
+							<li>Sayantan Ghosh Dastider(ECE)-9073105496</li>
+							<li>Soham Bhattacharyya(ECE)- 7003701754</li>
+						</ul>
+					</div>
+					<div>
+						<div class='dummy-img'><img src='./public/images/events/rosoccer.jpg' width="320px" height="200px">
+						</div>
+						<p class='dummy-text'>Event Name : RO -SOCCER</p>
+                         <ul style="color: black; list-style: none">
+                            <li>Participation Fees for College Students: ₹120 </li>
+                            <li>and other Students: ₹150 </li>
+                        </ul>
+						
+						<a href="./eventReg/soccer.html"><div id="btn">Register</div></a>
+						<p class='dummy-text'>Event Description : Explore the thrill of soccer , the challenge of team coordination , your skills of control over the bot and your limit to resist the pressure and deliver at the same time. In this event teams have to try to score goals against their opponents and save their goal at the same time. Extend your imagination in the game play and tactics. If you think that you are up to the mark then RO-SOCCER is the platform for robotics enthusiastic like you.</p>
+						<p class="dummy-text">
+							<b>OBJECTIVE</b><br><br><br>
+Each team will have two mutual bots , one as defender and the other as striker. Each team can also compete with another team having two bots. The first round will be prelims , depending upon the score of the prelims , teams will be qualified to next round.
+<br><br>
+							<b>BOT SPECIFICATIONS</b><br><br>
+<br><br>1.The dimensions of the bots should be 25 cm*25 cm*25 cm.
+<br><br>
+2.The weight of the bot should be within 3 kg , no external weight is allowed ,otherwise the corresponding team will be disqualified.
+<br><br>
+3.10% tolerance would be allowed in 25cm lengths and any deviations from the above mentioned dimensions may lead to dis qualification of the team.
+<br><br>
+4.Readymade toy cars or Lego or IC engines or hydraulic systems are not allowed.
+<br><br>
+5.The robot should be remotely controlled and the connections (the wires, for instance) between the control unit and the robot should be slag all the times.
+<br><br>
+							<b>GENERAL RULES</b><br><br>
+<br><br>1.Every participant must bring their college id card along with a Xerox copy of his/her voter ID card or pan card or AADHAR card.
+<br><br>
+2.Every participant must be a student of any reputed institution.
+<br><br>
+3.Maximum of 5 members allowed in one team.
+<br><br>
+4.No fans or blowing devices are allowed.
+<br><br>
+5.In prelims one bot from each team will participate in the game play.
+<br><br>
+6.The final round will be conducted in two halves of 4 minutes.
+<br><br>
+7.At any time we can change the arena rules and the decision of the coordinators will be final.
+<br><br>
+8.All participants are requested to report as early as possible.
+<br><br>
+							<b>TECHNICAL RULES</b><br><br>
+<br><br>1.10% tolerance is given on dimensions.
+<br><br>
+2.A team can take maximum of two technical time outs for not more than 5 minutes with valid reasons.
+<br><br>
+3.Each team can have a maximum of 5 members. Students from different institutes can form a team provided that each member of the team contains the identity card of his/her respective institute along with a Xerox copy of voter ID card or pan card or AADHAR card.
+<br><br>
+4.Unethical behaviour could lead to disqualification.
+<br><br>
+5.The robot may be disqualified if found violating the technical and safety rules of the event.
+<br><br>
+6.Coordinators have all rights to take final decision for any matter during the event.
+<br><br>
+							<b>GAME PLAY</b><br><br>
+<br><br>ROUND 1<br><br>
+<br><br>1.Wireless bot will be rewarded extra of 10 points.
+<br><br>
+2.You will be given a ball at a particular place from where you have to guide that ball to the goal without touching any obstacles, which will be in the form of coloured bricks.
+<br><br>
+3.Once you have scored goal the position of the ball will be reset.
+<br><br>
+4.Each team will be given 3 minutes to score as many goals they can ,in that time period, without touching the obstacles.
+<br><br>
+5.30 points will be awarded for each goal and 10 points will be deducted for each to the any coloured obstacles (bricks). 20 points will be deducted for only each touch of red coloured obstacles (bricks).
+<br><br>
+6.Holding the ball is allowed in this round.
+<br><br>
+7.Highest scorers will proceed to the next round.
+<br><br>
+							<b>ROUND 2</b><br><br>
+<br><br>1.The match will be of 8 minutes of two half’s of 4 minutes each.
+<br><br>
+2.Each team can interchange their position after half.
+<br><br>
+3.No fans or blowing devices are allowed.
+<br><br>
+4.You can’t hold the ball in this round.
+<br><br>
+5.In case of a tie ,extra time of two minutes will be given which will be in two half’s of 1 minute each.
+<br><br>
+6.If the winner is not decided after the extra time , it will go to penalty shootout, where each team has to hit the ball from the centre line to score goal.
+<br><br>
+7.Each team will be given 5 chances to hit the ball to score goal. The team which will score maximum or more will be the winner.
+<br><br>
+8.You can’t hold the ball with the help of grabbing mechanism.
+<br><br>
+9.If the ball by any how goes out of the arena then the ball would be placed in centre and the bots will be reset.
+<br><br>
+10.Suppose the hit is for team A and team B hits ,then it would be a free penalty for team A and bot of team B cannot move.
+<br><br>
+11.If the bot topples then there would be a reset after 5 seconds.
+<br><br>
+12.Any damage to arena will lead to direct disqualification.
+<br><br>
+Teams having wireless bots will be rewarded with 50 points extra.
+<br><br>
+	<b>SCORING RULES FOR ROUND 2</b><br><br>
+<br><br>1.First goal will be awarded 100 points.
+<br><br>
+2.Teams having wireless bots will be rewarded with 50 points extra.
+<br><br>
+3.50 points will be awarded for all further goals.
+<br><br>
+4.Each penalty would cost 50 points.
+<br><br>
+5.Each hand touch would cost the team 20 points.
+<br><br>
+	6.Any kind of technical touch may also cost the team 20 points.<br><br>
+						</p>
+						<p class='dummy-text'>Contact Person:</p>
+						<ul class = 'dummy-text'>
+							<li>Vijayshri Singh(ECE)– 7596813127</li>
+							<li>Soumyajit Mitra(EE) – 8906535006</li>
+						</ul>
+					</div>
+					<div>
+						<div class='dummy-img'><img src='./public/images/events/roterrence.jpg' width="320px" height="200px">
+						</div>
+						<p class='dummy-text'>Event Name : RO-TERRANCE</p>
+                         <ul style="color: black; list-style: none">
+                            <li>Participation Fees for College Students: ₹120 </li>
+                            <li>and other Students: ₹150 </li>
+                        </ul>
+						
+						<a href="./eventReg/Terrence.html"><div id="btn">Register</div></a>
+						<p class='dummy-text'>Event Description : One of the two members will be blind-folded. A maze will be in front of the participants. A
+small car will have to trace the maze and solve it while the blind folded person has the remote. The second person
+will have to assist his/her partner in solving the maze.</p>
+						<p class="dummy-text">
+							<b>BOT SPECIFICATION</b><br><br><br>
+1.The dimensions of the bot can be up to a maximum of 25 cm*25 cm*25 cm (l*b*h) excluding the control device dimensions.
+<br><br>
+2.A bot may weigh up to 2 kg , but not more than that
+<br><br>
+3.Maximum voltage between any two points on the bot must not exceed 24V DC .
+<br><br>
+4.The Chassis may be made of any material but weight of the bot must not exceed 2.5 kg.
+<br><br>
+5.Wheels can be of metal or any material but it must have a rubber tire on it.
+<br><br>
+6.Use of IC engines is prohibited.
+<br><br>
+7.In case of wired bot sufficient amount of the wire must be brought by the participants. Any time loss due to entanglement is the responsibility of the participants.
+<br><br>
+8.240V AC will be supplied as a power source for the bots.
+<br><br>
+9.In case of weird bot sufficient amount of wire must be brought by the participants.
+<br><br>
+							<b>GENERAL RULES OF THE TEAMS</b><br><br>
+<br><br>1.Each team may consist  of five members.
+<br><br>
+2.No participants can be present in two teams .
+<br><br>
+3.Each member of the team must bring their own college ID cards and adhaar card or pan card photocopy
+<br><br>
+4. Teams will require registering themselves in the registration counter before they can participate in the event
+<br><br>
+5.Each team have to keep their registration slip carefully for the issue of participants and winning certificates.
+<br><br>
+6.wireless bot will be provided extra 150 bonus points over their total points
+<br><br>
+							<br><br><b>GAME PLAY RULES</b><br><br>
+1.The team will be given maximum 6min to complete the whole task
+<br><br>
+Each team will be given a test run with their bots before the commences of the event.
+<br><br>
+3.If the bot falls of arena or is unable to cross any obstacle the team may use a hand touch and place in its previous position. A total of five such hand touches will be allowed.
+<br><br>
+4.Each participants will get a negative marks for each hand touch.
+<br><br>
+5.If the team uses all of the five hand touch hence couldnt overcome the obstracles then the team will be disqualified.
+<br><br>
+6.The rules can be changed or modified according to the circumstances and the arena.
+						</p>
+						<p class='dummy-text'>Contact Person:</p>
+						<ul class = 'dummy-text'>
+							<li>Abhirup Bose(ECE)-9547203003</li>
+							<li>Garima Baguria(EE)-7903501574</li>
+						</ul>
+					</div>
+					<div>
+						<div class='dummy-img'><img src='./public/images/events/rowings.jpg'  width="320px"  height="200px">
+						</div>
+						<p class='dummy-text'>Event Name : RO -WINGS</p>
+                         <ul style="color: black; list-style: none">
+                            <li>Participation Fees for College Students: ₹120 </li>
+                            <li>and other Students: ₹150 </li>
+                        </ul>
+
+						<a href="./eventReg/wings.html"><div id="btn">Register</div></a>
+						<p class='dummy-text'>Event Description :
+						Test your imagination with your measurable skills that will take you to the winning paramount of the event robo-spring. Race your drone against time and across obstacles course from start to finish at full throttle. The whole event is divided into parts with hurdles at each stage. So buckle your skills and test your control.</p>
+						<p class='dummy-text'>
+							<b>OBJECTIVE</b><br><br>
+Each team can have a maximum of five members. Each team have to compete against time along with obstacles. The selection of the teams will depend upon the time for the completion of the track and the scores achieved by each team.
+<br>
+							<br><b>GAME PLAY RULES</b><br><br>
+1.The height of each pole will be of 1m with a circle mounted on it.
+<br><br>
+2.The circles contain balls hanging to it. The drone should pass through the circle without touching the balls.
+<br><br>
+3.Maximum height of the multicopter from the ground is of 1.2m.
+<br><br>
+4.You have to start from origin and follow the path neatly without interfering obstacles, area and ground.
+<br><br>
+							<br><br><b>SCORING RULES FOR BOTH PRELIMS AND FINALS</b><br><br>
+<br><br>1.Passing through each circle will be rewarded 200 points.
+<br><br>
+2.Touching the balls will cost 50 points.
+<br><br>
+3.Technical Fault will cost 20 points.
+<br><br>
+4.Touching balls at the last portion of the path will cost 60 points.
+<br><br>
+5.Landing improperly will cost 20 points.
+<br><br>
+6.Flying of drone successfully in designed shape will be rewarded 100 points.
+<br><br>
+7.Landing properly on box will be rewarded 50 points.
+<br><br>
+							<br><br><b>DRONE SPECIFICATION</b><br><br>
+<br><br>1.Use a tri-copter, quad-copter, hexa-copter or octa-copter model.
+<br><br>
+2.Use of metallic propellers is prohibited.
+<br><br>
+3.Use electrical motors only.
+<br><br>
+4.Decide the dimensions of your craft carefully.
+<br><br>
+5.Use of automated features of flight control of board will lead to direct disqualification.
+<br><br>
+							<br><br><b>GENERAL RULES</b><br><br>
+<br><br>1.Every participant must bring their college id card along with a Xerox copy of his/her voter ID card or PAN card or Adhar card.
+<br><br>
+2.Every participant must be a student of any reputed institute.
+<br><br>
+3.Max of five members allowed in a team.
+<br><br>
+4.On completion of the path, land your multicopter accurately on the box placed at the end of the path.
+<br><br>
+5.Time limit to complete the task is of 5 minutes.
+<br><br>
+6.Maximum of three faults is allowed which includes touching the ground, crossing maximum height limit of 1.2m, any collision with the arena etc. Time will not be paused.
+<br><br>
+7.Time points will be awarded only to the teams which will complete the whole task in allotted time of 5 minutes.
+<br><br>
+8.A technical fault time would be provided with a valid reason and it would cost points.
+<br><br>
+9.If any unethical, fraudulent behavior is found, which will violate the rules of the game play, then the corresponding teams will be disqualified.
+<br><br>
+10.The teams will be selected in the prelims according to the time taken to clear the track and scores achieved.
+<br><br>
+11.The final round will be conducted among the selected teams.
+<br><br>
+12.Note the rounds will dependent upon the participation.
+<br><br>
+13.At any time we can change the arena rules and the decision of the coordinator will be final.
+						</p>
+						<p class='dummy-text'>Contact Person:</p>
+						<ul class = 'dummy-text'>
+							<li>Baishali nath(ECE)-9051660990</li>
+							<li>Kaustav Chowdhury(EE)-7059554009</li>
+						</ul>
+					</div>
+			
+					<span class="loading"></span>
+					<span class="icon close-content"></span>
+				</div>
+			</section>
+		</div><!-- /container -->
+		<script src="./public/vendor/jquery2.1.3.js"></script>
+		<script src="./public/js/preloader.js"></script>
+		<script src="./public/js/classie.js"></script>
+		<script src="./public/js/helper.js"></script>
+		<script src="./public/js/grid3d.js"></script>
+		<script>
+			new grid3D( document.getElementById( 'grid3d' ) );
+		</script>
+	</body>
+</html>

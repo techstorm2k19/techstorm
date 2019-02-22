@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+	<title>PUBG-Register</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css'>
+	<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300'>
+	<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,700,300'>
+	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+	<link rel="stylesheet" href="css/form1.css">
+	<link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+
+	<link rel="stylesheet" media="screen" href="css/particle.css">
+
+	<!--Suggestted by google fprm-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
+
+	<style>
+		div.signup__container
+		{
+					overflow-y:auto;
+		}
+
+		div.container__child.signup__form
+		{
+			width:420px;
+			height:860px;
+			margin: auto;
+		}
+	</style>
+</head>
+
+<body>
+
+  <div id="particles-js">
+  <div class="signup__container">
+  <div class="container__child signup__form">
+
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSdiMVLX4D43JJdKQ5nSkX7NZd2BbK4Ixzr_egnC5QK3lsfamw/formResponse"
+      target="_self"
+      id="my-custom-form"
+      method="POST">
+
+	<br>
+		
+		
+	  <div class="form-group">
+        <label for="username">Name</label>
+		<input class="form-control" id="343944508" type="text" name="entry.343944508" class="form-control" required>
+      </div>
+
+	<br>
+
+      <div class="form-group">
+        <label for="roll">College</label>
+		<input class="form-control" id="872586927" type="text" name="entry.872586927" class="form-control" required>
+      </div>
+
+	<br>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+		<input class="form-control" id="1527023709" type="email" name="entry.1527023709" class="form-control" required>
+      </div>
+
+	<br>
+
+	  <div class="form-group">
+        <label for="Phone">Phone no</label>
+		<input class="form-control" id="329530900" type="number" name="entry.329530900" class="form-control" required>
+      </div>
+
+	<br>
+
+	  <div class="form-group">
+        <label for="Phone">Department</label>
+		<input class="form-control" id="152887265" type="text" name="entry.152887265" class="form-control" required>
+      </div>
+
+	<br>
+		<input type="hidden" name="fvv" value="1">
+		<input type="hidden" name="fbzx" value="-5794771126359204820">
+		<input type="hidden" name="pageHistory" value="0">
+
+		<input class="btn btn--form" type="submit" value="Register" style="margin-left: 50%" onClick="ev();"/>
+
+    </form>
+
+  </div>
+</div>
+
+<canvas class="particles-js-canvas-el" width="749" height="375" style="width: 100%; height: 100%;"></canvas>
+
+</div>
+
+<script type="text/javascript">
+$('#my-custom-form').submit(function (event) {
+  event.preventDefault()
+  var extraData = {}
+  $('#my-custom-form').ajaxSubmit({
+	  data: extraData,
+	  dataType: 'jsonp',  // This won't really work. It's just to use a GET instead of a POST to allow cookies from different domain.
+	  error: function () {
+		  // Submit of form should be successful but JSONP callback will fail because Google Forms
+		  // does not support it, so this is handled as a failure.
+		  alert('Form Submitted. Thanks.')
+		  // You can also redirect the user to a custom thank-you page:
+		  // window.location = 'http://www.mydomain.com/thankyoupage.html'
+	  }
+  })
+})
+</script>
+
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+	stats.begin();
+	stats.end();
+	if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+	  count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+	}
+	requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
+
+
+
+</body>
+</html>
